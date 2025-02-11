@@ -1,63 +1,38 @@
-<div id=""spreadsheets-setup">
-  <h3>Spreadsheet Software</h3>
+{% comment %}
+<div id="shell-setup">
+  <h3>Bash Shell</h3>
   <p>
-    To interact with spreadsheets, we can use <a href="https://www.libreoffice.org">LibreOffice</a>, 
-    <a href="https://products.office.com/en-us/excel">Microsoft Excel</a>, 
-    <a href="https://www.gnumeric.org">Gnumeric</a>, 
-    <a href="https://www.openoffice.org">OpenOffice.org</a>, 
-    or other programs. 
-    Commands may differ a bit between programs, but general ideas for thinking about spreadsheets is the same.
+    Bash is een veelgebruikte <em>shell</em> waarmee je simpele taken sneller kunt volbrengen. De instructies voor installatie vind je <a href="https://librarycarpentry.org/lc-shell/setup.html" target="_blank" rel="noreferrer noopener">hier</a>.
   </p>
+</div>
+{% endcomment%}
+
+<div id="tidydata-setup">
+  <h3>Opgeruimde data</h3>
   <p>
-    For this lesson, if you don't have a spreadsheet program already, 
-    you can use [LibreOffice](https://www.libreoffice.org). 
-    It is a free, open source spreadsheet program.
-  </p>
-  <h4>Windows</h4>
-  <p>
-    <ul>
-      <li><strong>Download the Installer:</strong>
-        Install LibreOffice by going to the 
-        <a href="https://www.libreoffice.org/download/libreoffice-fresh/">installation page</a>.
-        The version for Windows should automatically be selected. 
-        Click <strong>Download</strong>. 
-        You will go to a page that asks about a donation, but you don't need to make one. 
-        Your download should begin automatically.</li>
-      <li><strong>Install LibreOffice:</strong>  
-        Once the installer is downloaded, double click on it and it should install.</li>
-    </ul>
-  </p>
-  <h4>Mac OS</h4>
-  <p>
-    <ul>
-      <li><strong>Download the Installer:</strong>
-        Install LibreOffice by going to the 
-        <a href="https://www.libreoffice.org/download/libreoffice-fresh/">installation page</a>.
-        The version for Mac OS should automatically be selected. 
-        Click <strong>Download</strong>. 
-        You will go to a page that asks about a donation, but you don't need to make one. 
-        Your download should begin automatically.</li>
-      <li><strong>Install LibreOffice:</strong>  
-        The file <code>LibreOffice\_X.X.X\_MacOS\_x86-64</code> (whichever version of LibreOffice you have selected) should have been downloaded. 
-        Double click on this file, and LibreOffice will be installed.</li>
-    </ul>
-  </p>
-  <h4>Linux</h4>
-  <p>
-    <ul>
-      <li><strong>Download the Installer:</strong>
-        Install LibreOffice by going to the 
-        <a href="https://www.libreoffice.org/download/libreoffice-fresh/">installation page</a>.
-        The version for Linux should automatically be selected. 
-        Click <strong>Download</strong>. 
-        You will go to a page that asks about a donation, but you don't need to make one. 
-        Your download should begin automatically.</li>
-      <li><strong>Install LibreOffice:</strong>  
-        Once the installer is downloaded, double click on it and it should install.</li>
-    </ul>
+    In dit deel van de cursus werken we met spreadsheets. Veel mensen zullen daarvoor al een programma beschikbaar hebben, bijvoorbeeld Microsoft Excel. Een gratis en open alternatief is <em>LibreOffice</em>. Zie <a href="https://librarycarpentry.org/lc-spreadsheets/index.html#software" target="_blank" rel="noreferrer noopener">hier</a> voor instructies om dat programma te installeren. In de cursus gebruiken we Excel. Download ook het <a href="https://librarycarpentry.org/lc-spreadsheets/index.html#data" target="_blank" rel="noreferrer noopener">databestand</a> dat we zullen gebruiken tijdens de cursus.
   </p>
 </div>
 
+<div id="openrefine-setup">
+  <h3>OpenRefine</h3>
+  <p>
+    OpenRefine is een tool om rommelige data op te schonen en te organiseren. Volg deze <a href="https://librarycarpentry.org/lc-open-refine/index.html" target="_blank" rel="noreferrer noopener">instructies</a> om OpenRefine te installeren. Download ook het <a href="https://librarycarpentry.org/lc-open-refine/#downloading-the-data" target="_blank" rel="noreferrer noopener">databestand</a> dat we zullen gebruiken tijdens de cursus.
+  </p>
+</div>
+
+<div id="python-setup">
+  <h3>Python</h3>
+  <p>
+    Download en unzip het volgende bestand: <a href="https://github.com/cdsleiden/lc-python/archive/refs/heads/main.zip" target="_blank" rel="noreferrer noopener"><code>main.zip</code></a>
+  </p>
+     
+  <p>
+    Volg <a href="https://cdsleiden.github.io/python-tutorial/Installation.html" target="_blank" rel="noreferrer noopener">deze instructies</a> om Python te installeren. De map waarnaar wordt verwezen aan het einde van deze tekst (&ldquo;<i>the folder containing all the notebooks you downloaded</i>&rdquo;) is de gezipte map die hierboven wordt genoemd.
+  </p>
+</div>
+
+<!-- 
 <div id="shell-setup"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>The Bash Shell</h3>
   <p>
@@ -65,17 +40,21 @@
     more quickly. Please find setup instructions in
     the <a href="https://librarycarpentry.org/lc-shell/index.html#setup">lesson</a>.
   </p>
-</div>
+</div> 
+-->
 
-<div id="openrefine-setup">
+<!-- 
+  <div id="openrefine-setup">
   <h3>OpenRefine</h3>
   <p>
     OpenRefine is a tool to clean up and organize messy data. Please find instructions to
     install it and the data used in the lesson in the
     <a href="https://librarycarpentry.org/lc-open-refine/">lesson</a>.
   </p>
-</div>
+</div> 
+-->
 
+<!-- 
 <div id="git-setup"> {% comment %} Start of 'Git' section. GitHub browser compatibility
   is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
   <h3>Git</h3>
@@ -102,4 +81,5 @@
     <a href="https://help.github.com/articles/supported-browsers/">supported
     web browser</a>.
   </p>
-</div>
+</div> 
+-->
